@@ -1,0 +1,54 @@
+\section{Introduction}
+The goal of this analysis is to estimate the number of neutrino species in the Standard Model of a parallel universe. Scientists there have built an analogue of the Large Hadron Collider (LHC) and performed proton-proton collisions at high energies. The primary focus is on the production and decay of the $Z$ boson, with particular interest in the decay channels $Z \to \nu \bar{\nu}$ and $Z \to \mu^+ \mu^-$. 
+
+\section{Theory and Feynman Diagrams}
+The $Z$ boson in this universe behaves similarly to ours, decaying into neutrinos and charged leptons. 
+
+\subsection{Parton-Level Processes}
+At the parton level, we consider the fundamental short-distance interactions between individual quarks and gluons inside the proton. We will be ignoring other "spectator"partons within the protons that don't directly participate in the hard collision.  The key Feynman diagrams contributing to our signal processes are:
+
+\begin{itemize}
+    \item $q \bar{q} \to Z g$, followed by $Z \to \nu \bar{\nu}$.
+    \item $q \bar{q} \to Z g$, followed by $Z \to \mu^+ \mu^-$. 
+\end{itemize}
+
+Additionally, backgrounds such as Drell-Yan and top quark pair production contribute to the observed final states.
+
+\subsection{Feynman Diagrams}
+Below are parton-level diagrams for these processes:
+
+
+
+\subsection{Other Processes Leading to Jet + $\mu^+ \mu^-$}
+Apart from $Z$ boson production, other Standard Model processes can lead to the jet + $\mu^+ \mu^-$ final state:
+
+\begin{itemize}
+    \item \textbf{Drell-Yan Process:} $q \bar{q} \to \gamma^*/Z \to \mu^+ \mu^-$. If a gluon is radiated, it can produce a jet, mimicking our signal.
+    \item \textbf{Top Quark Pair Production:} $pp \to t \bar{t}$, where one top decays as $t \to W^+ b \to \mu^+ \nu b$. If the $b$-jet is not tagged, the event can appear as jet + $\mu^+ \mu^-$. 
+    \item \textbf{Electroweak Backgrounds:} $WZ$ or $WW$ events where $Z \to \mu^+ \mu^-$ and a jet comes from radiation or decays.
+\end{itemize}
+
+
+
+
+Including a jet in the event selection serves several purposes:
+\begin{itemize}
+    \item It allows triggering the event in detectors, which typically require high-energy jets for selection.
+    \item It helps differentiate signal from background, as pure $Z \to \nu \bar{\nu}$ events would be difficult to detect without a recoiling jet.
+    \item It provides additional kinematic constraints that help reconstruct the missing transverse energy ($E_T^{\text{miss}}$) and infer the presence of neutrinos.
+\end{itemize}
+
+\section{Event Selection}
+The selection criteria ensure that events contain:
+\begin{itemize}
+    \item At least one high-energy jet.
+    \item Either large missing transverse energy ($E_T^{\text{miss}}$) or a reconstructed muon pair.
+    \item Kinematic constraints consistent with $Z$ boson production.
+\end{itemize}
+
+\section{Analysis Method}
+To estimate the number of neutrino species, we analyze the ratio of events with missing energy to those with visible muon pairs:
+\begin{equation}
+R = \frac{N_{\text{jet} + E_T^{\text{miss}}}}{N_{\text{jet} + \mu^+ \mu^-}}.
+\end{equation}
+Using known branching fractions, we extract the number of neutrino generations.
